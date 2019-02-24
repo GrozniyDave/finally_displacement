@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Displacement</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="output">
+        <h1>Move the cursor!</h1>
+        <canvas
+          id="outputCanvas"
+          class="commonCanvas"
+          width="500"
+          height="600"
+        ></canvas>
+      </div>
+      <div class="original">
+        <h1>Generated from picture:</h1>
+        <canvas
+          id="sourceCanvas"
+          class="commonCanvas"
+          width="500"
+          height="600"
+        ></canvas>
+      </div>
+      <div class="map">
+        <h1>The "Bump" map</h1>
+        <canvas
+          id="mapCanvas"
+          class="commonCanvas"
+          width="500"
+          height="600"
+        ></canvas>
+      </div>
+    </div>
+    <div id="coorDisplay"></div>
+    <script src="js.js"></script>
+  </body>
+</html>
